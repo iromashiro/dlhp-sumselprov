@@ -7,8 +7,8 @@
         <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <video class="w-full h-full absolute object-cover"
-                src="{{ URL::asset('frontend/asset/header/LakefrontCabin.mp4') }}" type="video/mp4" autoplay muted
-                loop></video>
+                src="{{ URL::asset('frontend/asset/header/LakefrontCabin.mp4') }}" type="video/mp4" playsinline autoplay
+                muted loop></video>
             <span
                 class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-white judul">
                 DINAS LINGKUNGAN HIDUP <br> PROVINSI SUMATERA SELATAN
